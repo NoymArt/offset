@@ -1,0 +1,254 @@
+body {
+   font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;   
+    margin-top: 40px;
+    line-height:16px;
+     background-color: #EBEBEB;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:Arial, sans-serif;
+    font-weight: 500;
+   line-height:40px;
+   
+}
+
+h1 {
+    color:#384b43;
+    font-weight: 900;
+    
+}
+.text-center {
+    text-align: center; 
+}
+
+.main-top-margin {
+     margin-top: 15px;
+     background-color: rgba(73, 151, 250, 0.11);
+}
+.main-low-margin {
+     margin-top: 25px;
+}
+
+a,a:hover {
+    text-decoration:none;
+}
+
+p {
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+
+.bottam-pad {
+     padding-bottom:40px;
+}
+.text-justify {
+    text-align:justify;
+}
+
+
+   /* головная часть */
+
+#header-section {
+	background: url(../img/1.jpg); 
+	margin-top: 50px;
+	padding-top:650px;
+	text-align:center;
+	background-position: center center;
+	min-height: 600px;
+	width: 100%;	
+  background-size: 100%;
+  background-size: cover;
+}
+
+#header-section h1 {
+  font-family:Georgia, "Times New Roman", Times, serif;
+	margin-top: 150px;
+	color: rgb(192, 10, 25);
+	font-size: 45px;
+	font-weight: 900;
+	letter-spacing: 2px;
+  line-height:100px;
+
+}
+
+#header-section h2 {
+	color: rgb(221, 24, 41);
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 4px;
+}
+#header-section h3 {
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 4px;
+  padding-bottom:80px;
+}
+
+   /* Менюшка    */
+
+.navbar {
+font-size: 14px;
+}
+
+.navbar-inverse {
+	background: #000000;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #ffffff;
+	font-weight: bolder;
+	font-size: 25px;
+    font-weight:900;
+	letter-spacing: 2px;
+}
+.navbar-inverse :hover .navbar-brand:hover {
+	color: #ffffff;	
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #FFFFFF;
+}
+
+
+/*  Картинки  */
+.listings{
+  padding: 100px 0;
+}
+
+.listings ul.properties_list{
+  list-style: none;
+  overflow: hidden;
+}
+
+.listings ul.properties_list li{
+  display: block;
+  width: 30.90909090909091%;
+  height: auto;
+  position: relative;
+  float: left;
+  margin: 0 3.636363636363636% 3.636363636363636% 0;
+}
+
+.listings ul.properties_list li img.property_img{
+  width: 100%;
+  height: auto!important;
+  vertical-align: top;
+}
+
+/* Цена */
+.listings ul.properties_list li .price{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 10px 10px;
+  background: #ffffff;
+  color: #514d4d;
+  font-family: "lato-bold", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 2px;
+}
+
+/* столбцы */
+.listings ul.properties_list li:nth-child(3n){
+  margin-right: 0;
+}
+
+.listings ul li .property_details{
+  width: 100%;
+  padding: 3% 6% 4% 6%;
+  border-bottom: 1px solid #f2f1f1;
+  border-left: 1px solid #f2f1f1;
+  border-right: 1px solid #f2f1f1;
+
+  transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+}
+
+.listings ul li:hover .property_details{
+  border-bottom: 1px solid #95badf;
+  border-left: 1px solid #95badf;
+  border-right: 1px solid #95badf;
+}
+
+.listings ul li .property_details h1{
+  color: #666464;
+  font-family: "lato-bold", Helvetica, Arial, sans-serif;
+  font-size: 16px!important;
+  font-weight: bold;
+  margin-bottom: 5px;
+  line-height: 28px;
+}
+
+.listings ul li .property_details h1 a{
+  text-decoration: none;
+  color: #666464;
+}
+
+.listings ul li .property_details h2{
+  color: #9d9d9d;
+  font-family: "lato-regular", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.listings ul li .property_details .property_size{
+  color: #676767;
+}
+
+/* кнопка "больше" */
+.listings .more_listing{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 84px 0 22px 0;
+}
+
+.listings .more_listing_btn{
+  text-decoration: none;
+  padding: 20px 40px;
+  border: 2px solid #6aaff0;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -o-border-radius: 30px;
+  color: #5fa4e6;
+  font-family: "lato-regular", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+
+  transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+}
+
+.listings .more_listing_btn:hover{
+  color: #a0c3e5;
+  border: 2px solid #a0c3e5;    
+}
+
+
+   /* Подвал */
+
+#footer {
+    margin-top:100px;
+    background-color: #000; 
+    color: #fff; 
+    text-align: right; 
+    padding: 10px 30px 10px 30px;
+}
